@@ -5,9 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="main_prompt">Ask your question</string>
     <string name="answer_label">Heather says, </string>
-    <string name="user_question_hint">What is life?</string>
-    <string name="submit_button">Answer</string>
-    <string name="title_activity_answer_question">Coach says </string>
+    <string name="submit_button">What is life?</string>
+    <string name="title_activity_answer_question">Life says </string>
     <string name="action_search">Search</string>
 
 </resources>

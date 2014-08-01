@@ -37,9 +37,6 @@ public class MainActivity extends ActionBarActivity {
 	        case R.id.action_settings:
 	            openSettings();
 	            return true;
-	        case R.id.home:
-	            NavUtils.navigateUpFromSameTask(this);
-	            return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
 	    }
@@ -49,7 +46,6 @@ public class MainActivity extends ActionBarActivity {
 	public void sendQuestion(View view){
 		Intent intent = new Intent(this, AnswerQuestionActivity.class);
 	    startActivity(intent);
-
 	}
 	
 	private void openSearch(){
